@@ -325,11 +325,11 @@ Modal.propTypes = {
   disableEscapeKeyDown: PropTypes.bool,
   /**
    * Disable the portal behavior.
-   * The children stay within it's parent DOM hierarchy.
+   * The children stay within their parent's DOM hierarchy.
    */
   disablePortal: PropTypes.bool,
   /**
-   * If `true`, the modal will not restore focus to previously focused element once
+   * If `true`, the modal will not restore focus to the previously focused element once
    * modal is hidden.
    */
   disableRestoreFocus: PropTypes.bool,
@@ -373,7 +373,7 @@ Modal.propTypes = {
    */
   onEscapeKeyDown: PropTypes.func,
   /**
-   * Callback fired once the children has been mounted into the `container`.
+   * Callback fired once the children have been mounted into the `container`.
    * It signals that the `open={true}` property took effect.
    */
   onRendered: PropTypes.func,
